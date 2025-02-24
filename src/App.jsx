@@ -16,11 +16,7 @@ import Checkout from './components/Checkout/Checkout'
 function App() {
   return (
     <CartContextProvider>
-      {/* 
-        La idea del sticky footer:
-        1) Agregamos un <main> que contendrá las rutas.
-        2) Footer queda fuera del main, al final.
-      */}
+      {}
       <NavBar />
 
       <main>

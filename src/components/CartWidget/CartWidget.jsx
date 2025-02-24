@@ -8,7 +8,7 @@ function CartWidget() {
 
   return (
     <div className="cart-widget">
-      {/* Aquí va la palabra clave del ícono que quieres mostrar */}
+      {}
       <span className="material-icons">shopping_cart</span>
 
       {cartTotalItems() > 0 && (
