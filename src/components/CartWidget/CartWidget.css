@@ -1,0 +1,23 @@
+.cart-widget {
+    position: relative;
+    color: #fff;
+    font-size: 1.4rem; /* Tamaño del ícono */
+  }
+  
+  .material-icons {
+    vertical-align: middle; /* Alinea el ícono con el texto */
+  }
+  
+  /* Contador de ítems */
+  .cart-count {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background-color: #ff4f4f;
+    color: #000000;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  

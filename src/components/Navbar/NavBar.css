@@ -1,0 +1,58 @@
+/* NavBar.css */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: var(--color-primary);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  .navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    height: 70px; /* Un poco más alto que antes */
+  }
+  
+  /* LOGO */
+  .navbar__logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .navbar__logo-image {
+    height: 60px;     /* Aumenta la altura del logo */
+    width: auto;      /* Mantiene proporción */
+  }
+  
+  /* LINKS */
+  .navbar__links {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  
+  .navbar__links a {
+    color: #fff;
+    font-weight: 500;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar__links a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: var(--color-secondary); /* Un verde más claro */
+  }
+  
+  /* CARRO */
+  .navbar__cart {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  

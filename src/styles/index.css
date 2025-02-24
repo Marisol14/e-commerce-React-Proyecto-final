@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* index.css (o styles/index.css) */
+
+/* 
+  Si deseas usar Google Fonts (ej. Poppins):
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*/
+
+:root {
+  /* Paleta inspirada en bambú, con fondo crema */
+  --color-bg: #F2EBD9;        /* Crema claro para el fondo general */
+  --color-primary: #4F6136;   /* Verde oscuro para navbar, footer */
+  --color-secondary: #8DBF67; /* Verde medio, para hovers o detalles */
+  --color-accent: #C8A32C;    /* Dorado-bambú para botones y resaltados */
+  --color-text: #2E3822;      /* Texto principal oscuro */
+  --color-card-bg: #ffffff;   /* Fondo blanco para las tarjetas */
+}
+
+/* Estilos globales */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Poppins', sans-serif; /* Ajusta si usas otra fuente */
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  flex: 1; /* El contenido principal se expande */
+}

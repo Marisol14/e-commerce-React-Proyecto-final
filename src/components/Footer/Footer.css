@@ -1,0 +1,52 @@
+/* Footer.css */
+
+.footer {
+    background-color: var(--color-primary); /* Verde oscuro, #4F6136 */
+    color: #fff;                           /* Texto en blanco */
+    padding: 2rem 1rem;                    /* Espacio vertical generoso */
+    margin-top: 2rem;                      /* Separación del contenido anterior */
+  }
+  
+  .footer__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;          /* Para adaptarse en pantallas pequeñas */
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Sección Izquierda */
+  .footer__left {
+    flex: 1;                  /* Ocupa espacio flexible */
+    min-width: 250px;
+  }
+  .footer__left p {
+    margin: 0.25rem 0;
+  }
+  .footer__left a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  /* Sección Derecha */
+  .footer__right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;          /* Para que no se rompa en móvil */
+    justify-content: flex-end;
+    flex: 1;                  /* Ocupa el espacio restante */
+    min-width: 250px;
+  }
+  .footer__right a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s ease;
+  }
+  .footer__right a:hover {
+    border-bottom: 1px solid #fff;
+  }
+  

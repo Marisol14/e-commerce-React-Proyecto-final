@@ -1,0 +1,14 @@
+/* ItemListContainer.css (o en ItemList.css) */
+.item-list-container {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  

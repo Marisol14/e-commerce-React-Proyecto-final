@@ -1,0 +1,85 @@
+/* ItemDetail.css */
+
+.item-detail-container {
+    padding: 1rem;
+    text-align: center;
+    /* Hereda el fondo crema y texto oscuro del body */
+  }
+  
+  .item-detail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 900px;
+    background-color: var(--color-bg); /* #F2EBD9 o #FFF, según prefieras */
+    color: var(--color-text);         /* Asegura texto oscuro */
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  
+  .item-detail img {
+    max-width: 300px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  
+  .item-detail-info {
+    max-width: 400px;
+    text-align: left;
+  }
+  
+  .item-detail h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .item-detail-price {
+    color: var(--color-accent); /* Dorado */
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .item-detail-description {
+    margin: 1rem 0;
+    line-height: 1.4;
+    color: var(--color-text);
+  }
+  
+  .item-detail-stock {
+    color: var(--color-secondary); /* Verde medio */
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+  
+  /* Ajusta el ItemQuantitySelector y botón si están dentro de item-detail */
+  .quantity-selector button {
+    background-color: var(--color-accent);
+    color: #fff;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    margin: 0 0.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .quantity-selector span {
+    color: var(--color-text);
+    font-size: 1.1rem;
+  }
+  
+  /* Botón "Agregar al Carrito" */
+  .add-item-button {
+    background-color: var(--color-accent);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.6rem 1.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .add-item-button:hover {
+    background-color: var(--color-secondary);
+  }
+  
